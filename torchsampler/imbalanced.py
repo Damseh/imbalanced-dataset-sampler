@@ -6,7 +6,7 @@ import torch.utils.data
 import torchvision
 
 
-class ImbalancedDatasetSampler(torch.utils.data.sampler.Sampler):
+class ImbalancedDatasetSampler(torch.utils.data.Sampler):
     """Samples elements randomly from a given list of indices for imbalanced dataset
 
     Arguments:
